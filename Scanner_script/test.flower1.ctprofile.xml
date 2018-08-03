@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CTProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataSetName>dough.1</DataSetName>
+  <ManipulatorPosition>
+    <AxisPosition>0</AxisPosition>
+    <AxisPosition>189.008438</AxisPosition>
+    <AxisPosition>410.564484</AxisPosition>
+    <AxisPosition>0</AxisPosition>
+    <AxisPosition>0</AxisPosition>
+  </ManipulatorPosition>
+  <CTAxisOffset>0</CTAxisOffset>
+  <XraySettings>
+    <Settings>
+      <kV>90</kV>
+      <uA>92</uA>
+    </Settings>
+  </XraySettings>
+  <XrayFilterMaterial />
+  <XrayFilterThickness>0</XrayFilterThickness>
+  <requiresPreprocessing>false</requiresPreprocessing>
+  <preprocessingType>-1</preprocessingType>
+  <XrayHead>Reflection 225</XrayHead>
+  <XrayHeadNumber>0</XrayHeadNumber>
+  <ShadingCorrections>
+    <CorrectionName>vcc.dough</CorrectionName>
+  </ShadingCorrections>
+  <AutomaticShadingCorrection>false</AutomaticShadingCorrection>
+  <FluxNormalisation>true</FluxNormalisation>
+  <FluxNormalisationRect>
+    <Location>
+      <X>1864</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <Width>45</Width>
+      <Height>121</Height>
+    </Size>
+    <X>1864</X>
+    <Y>0</Y>
+    <Width>45</Width>
+    <Height>121</Height>
+  </FluxNormalisationRect>
+  <ImagingSettings binning="0" exposure="1000" gain="0" brightness="0" digitalGain="0" accumulation="0" WhiteToBlackLatency="20000" BlackToWhiteLatency="0" WhiteToWhiteLatency="1000" lines="0">
+    <transform>6</transform>
+    <rotationCorrection>false</rotationCorrection>
+    <imageOffsetX>10</imageOffsetX>
+    <imageOffsetY>10</imageOffsetY>
+    <imageSizeX>1910</imageSizeX>
+    <imageSizeY>1524</imageSizeY>
+    <defaultImagingMode>Histogram</defaultImagingMode>
+  </ImagingSettings>
+  <IntensifierField>0</IntensifierField>
+  <IrisDemand>100</IrisDemand>
+  <DetectorPixelSizeMM>0.127</DetectorPixelSizeMM>
+  <MinimiseRingArtefacts>true</MinimiseRingArtefacts>
+  <Reconstruct>false</Reconstruct>
+  <ReconstructionQuality>100</ReconstructionQuality>
+  <TallSampleRadius>0</TallSampleRadius>
+  <UseTallSampleROI>false</UseTallSampleROI>
+  <ReconstructionPCName>RECONPC</ReconstructionPCName>
+  <OptimiseProjections>false</OptimiseProjections>
+  <Projections>10</Projections>
+  <FramesPerProjection>4</FramesPerProjection>
+  <DatasetAcquisition>false</DatasetAcquisition>
+  <TotalProjections>-1</TotalProjections>
+  <NumberOfDatasets>1</NumberOfDatasets>
+  <BeamHardeningPreset>0</BeamHardeningPreset>
+  <BeamHardeningLUTFile />
+  <NoiseReductionPreset>0</NoiseReductionPreset>
+  <LinearInterpolation>false</LinearInterpolation>
+  <MedianFilterSize>0</MedianFilterSize>
+  <ProjectionImageEnhancement>None</ProjectionImageEnhancement>
+  <CalculateCentreOfRotation>false</CalculateCentreOfRotation>
+  <RunVolumeAnalysis>false</RunVolumeAnalysis>
+  <VolumeGraphicsMacros />
+  <ProfileName />
+  <ProfileVersion>0</ProfileVersion>
+  <ScanFlatPanel>false</ScanFlatPanel>
+  <PanelScanImages>2</PanelScanImages>
+  <FastPanelScan>false</FastPanelScan>
+  <CentralCT>true</CentralCT>
+  <VolumeOfInterest>
+    <XStart>0</XStart>
+    <XEnd>1909</XEnd>
+    <YStart>0</YStart>
+    <YEnd>1909</YEnd>
+    <ZStart>0</ZStart>
+    <ZEnd>1523</ZEnd>
+  </VolumeOfInterest>
+  <ApplyRodCorrection>true</ApplyRodCorrection>
+  <Delay>
+    <Hours>0</Hours>
+    <Minutes>0</Minutes>
+    <Seconds>0</Seconds>
+  </Delay>
+  <DualEnergy>false</DualEnergy>
+</CTProfile>
