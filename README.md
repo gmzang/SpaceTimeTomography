@@ -12,6 +12,7 @@ Space-time Tomography for Continuously Deforming Objects
 
 
 ## Abstract:
+<img src=./teaser.png width=95%/>
 X-ray computed tomography is a valuable tool for analyzing objects with
 interesting internal structure or complex geometries that are not accessible
 with optical means. Unfortunately, tomographic reconstruction of complex
@@ -25,11 +26,11 @@ under investigation
 
 
 ## Usage
-The code is tested in Visual Studio 2015 and 2018 on 64 bits Windows 7/ Windows 10.
+The code is tested in Visual Studio 2015 and 2018 on 64 bits Windows 7 and Windows 10.
 
-To run the ST tomography framwork, you need to install  [argtable], [openmp], and [eigen] libraries
+To run the ST tomography framwork, you need to install  [argtable], [openmp],  [eigen], and [cimg] libraries
 
-For command usage, you can simpily use  `STTomography --help`  to find more detail:
+For command and parameter usage, you can find more detail in the [paper and supplement](https://vccimaging.org/Publications/Zang2018Space-time/), or simply use  `ST-Tomography --help`  to find more detail:
 ```
   -s, --Sigma=<double>                         Sigma in volume density reconstruction (default as 0.2)
   -t, --Tau=<double>                           Lambda in volume density reconstruction (default as 0.2)
@@ -101,7 +102,7 @@ Copyright: [Visual computing center], CEMSE, KAUST
 [openmp]: <http://openmp.org/wp/>
 [eigen]: <http://eigen.tuxfamily.org/index.php?title=Main_Page>
 [argtable]: <http://argtable.sourceforge.net/>
-[previous work]: <https://github.com/vccimaging/TRex-astra-1.7.1beta>
+[cimg]: <http://cimg.eu/>
 [Visual computing center]: <https://vcc.kaust.edu.sa/Pages/Home.aspx>
 
 Enjoy!
